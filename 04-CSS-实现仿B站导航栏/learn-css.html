@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>learn-css</title>
+  <style>
+    /* css 内联式 */
+    p {
+      font-family: '微软雅黑';
+    }
+    #abc {
+      font-size: 50px;
+    }
+    #EFG {
+      font-size: 20px;
+      color: brown;
+    }
+    #DEMO {
+      background-color: green;
+    }
+  </style>
+  <!-- css 外链式 -->
+  <link rel="stylesheet" type="text/css" href="./css/learn-css.css">
+</head>
+<body>
+  <!-- css 行间式 -->
+  <div style="color: blueviolet; background: black;">行间式</div>
+  
+  <!-- css 内联式 -->
+  <p id="abc">abc</p>
+  <p id="EFG">EFG</p>
+
+  <!-- css 外链式 -->
+  <div id="xyz">xyz</div>
+  <p id='DEMO'>zzz</p>
+</body>
+</html>
